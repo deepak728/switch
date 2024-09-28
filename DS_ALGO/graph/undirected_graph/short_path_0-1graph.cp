@@ -47,6 +47,7 @@ it will be processed first).
 
 void shortest_path(int src){
     deque<pair<int,int>> q;
+    // there is no need for pair we can do this by using dist array. 
     q.push_front({0,src});
     
     while(!q.empty()){
